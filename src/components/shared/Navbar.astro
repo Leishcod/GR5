@@ -1,0 +1,69 @@
+---
+import Button from "../ui/Button.astro";
+---
+
+<nav
+    class="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-xl border-b border-white/10"
+>
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <!-- Logo -->
+        <a
+            href="/"
+            class="text-2xl font-bold tracking-tighter hover:opacity-80 transition-opacity text-white"
+        >
+            Los <span class="text-primary">Tralaleritos</span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+            <a
+                href="#nosotros"
+                class="text-sm text-gray-400 hover:text-white transition-colors"
+                >Nosotros</a
+            >
+            <a
+                href="#servicios"
+                class="text-sm text-gray-400 hover:text-white transition-colors"
+                >Servicios</a
+            >
+            <a
+                href="#proyectos"
+                class="text-sm text-gray-400 hover:text-white transition-colors"
+                >Proyectos</a
+            >
+            <a
+                href="#contacto"
+                class="text-sm text-gray-400 hover:text-white transition-colors"
+                >Contacto</a
+            >
+        </div>
+
+        <!-- CTA -->
+        <div class="hidden md:block">
+            <Button
+                href="#contacto"
+                variant="primary"
+                class="!py-2 !px-4 text-sm"
+            >
+                Únete ahora
+            </Button>
+        </div>
+
+        <!-- Mobile Menu Button (Placeholder) -->
+        <button class="md:hidden text-white p-2">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+            </svg>
+        </button>
+    </div>
+</nav>

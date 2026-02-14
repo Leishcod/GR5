@@ -1,0 +1,65 @@
+---
+import Button from "../ui/Button.astro";
+import Badge from "../ui/Badge.astro";
+---
+
+<section
+    class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden"
+>
+    <!-- Dynamic Background Glow -->
+    <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[120px] -z-10 animate-pulse"
+    >
+    </div>
+
+    <div class="container mx-auto px-6 text-center z-10">
+        <div class="mb-6 fade-in" style="animation-delay: 0.1s;">
+            <Badge text="Creatividad y Diversión" />
+        </div>
+
+        <h1
+            class="text-5xl md:text-7xl font-bold tracking-tighter mb-6 fade-in text-white"
+            style="animation-delay: 0.2s;"
+        >
+            Bienvenidos a <br />
+            <span class="text-gradient">Los Tralaleritos</span>
+        </h1>
+
+        <p
+            class="text-xl text-gray-400 max-w-2xl mx-auto mb-10 fade-in"
+            style="animation-delay: 0.3s;"
+        >
+            Descubre un mundo de creatividad, diversión y experiencias
+            inolvidables. Somos un equipo apasionado por lo que hacemos.
+        </p>
+
+        <div
+            class="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in"
+            style="animation-delay: 0.4s;"
+        >
+            <Button href="#proyectos" variant="primary">
+                Nuestros Proyectos
+            </Button>
+            <Button href="#nosotros" variant="secondary"> Conócenos </Button>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div
+        class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-50"
+    >
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+    </div>
+</section>
