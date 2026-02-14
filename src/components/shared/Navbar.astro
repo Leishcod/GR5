@@ -49,8 +49,8 @@ import Button from "../ui/Button.astro";
             </Button>
         </div>
 
-        <!-- Mobile Menu Button (Placeholder) -->
-        <button class="md:hidden text-white p-2">
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden text-white p-2">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -66,4 +66,61 @@ import Button from "../ui/Button.astro";
             </svg>
         </button>
     </div>
+
+    <!-- Mobile Menu Container -->
+    <div
+        id="mobile-menu"
+        class="hidden md:hidden absolute top-20 left-0 w-full bg-black/90 backdrop-blur-xl border-b border-white/10 p-6 flex-col gap-4"
+    >
+        <a
+            href="#nosotros"
+            class="mobile-link text-lg text-gray-400 hover:text-white transition-colors block py-2"
+            >Nosotros</a
+        >
+        <a
+            href="#servicios"
+            class="mobile-link text-lg text-gray-400 hover:text-white transition-colors block py-2"
+            >Servicios</a
+        >
+        <a
+            href="#salidas"
+            class="mobile-link text-lg text-gray-400 hover:text-white transition-colors block py-2"
+            >Salidas</a
+        >
+        <a
+            href="#contacto"
+            class="mobile-link text-lg text-gray-400 hover:text-white transition-colors block py-2"
+            >Contacto</a
+        >
+        <div class="pt-4">
+            <Button
+                href="#contacto"
+                variant="primary"
+                class="w-full justify-center"
+            >
+                Únetenos
+            </Button>
+        </div>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById("mobile-menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const mobileLinks = document.querySelectorAll(".mobile-link");
+
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener("click", () => {
+                mobileMenu.classList.toggle("hidden");
+                mobileMenu.classList.toggle("flex");
+            });
+
+            // Close menu when clicking a link
+            mobileLinks.forEach((link) => {
+                link.addEventListener("click", () => {
+                    mobileMenu.classList.add("hidden");
+                    mobileMenu.classList.remove("flex");
+                });
+            });
+        }
+    </script>
 </nav>
