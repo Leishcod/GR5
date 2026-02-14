@@ -49,18 +49,23 @@
                 <ul class="space-y-2 text-sm text-gray-400">
                     <li>
                         <a
-                            href="#"
-                            class="https://www.instagram.com/grupitode5_priv/"
+                            href="https://www.instagram.com/grupitode5_priv/"
+                            class="hover:text-primary transition-colors"
                             >Instagram</a
                         >
                     </li>
                     <li>
-                        <a href="#" class="hover:text-primary transition-colors"
+                        <a
+                            href="#"
+                            id="facebook-alert-btn"
+                            class="hover:text-primary transition-colors"
                             >Facebook</a
                         >
                     </li>
                     <li>
-                        <a href="#" class="https://www.instagram.com/leonl_chz/"
+                        <a
+                            href="https://www.instagram.com/leonl_chz/"
+                            class="hover:text-primary transition-colors"
                             >Ig-Developer</a
                         >
                     </li>
@@ -72,8 +77,21 @@
             class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4"
         >
             <p class="text-xs text-gray-500">
-                &copy; {new Date().getFullYear()} Los Tralaleritos - Developer: Leonel.
+                &copy; {new Date().getFullYear()} Los Tralaleritos - Developer: Leonel
             </p>
         </div>
     </div>
 </footer>
+
+<script>
+    const facebookBtn = document.getElementById("facebook-alert-btn");
+
+    if (facebookBtn) {
+        facebookBtn.addEventListener("click", (e) => {
+            e.preventDefault(); // Evita que el enlace recargue la página o salte arriba
+            alert(
+                "¡Hola! Por el momento no contamos con página de Facebook pipipi.",
+            );
+        });
+    }
+</script>
