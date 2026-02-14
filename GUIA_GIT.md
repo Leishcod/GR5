@@ -1,3 +1,4 @@
+#ESTA GUÍA ES PARA MÍ, CAUSIN
 # Guía Rápida de Git: Proyectos y Comandos Diarios
 
 Esta guía te ayuda a manejar tu código con Git y GitHub.
