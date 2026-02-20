@@ -1,43 +1,59 @@
-# Astro Starter Kit: Minimal
+# 🌟 Los Tralaleritos
 
-```sh
-npm create astro@latest -- --template minimal
-```
+> **"Existentes desde 2023"**
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Bienvenido a la página oficial de **Los Tralaleritos**, un grupo de amigos apasionados por las aventuras y los buenos momentos en nuestro querido Perú.
 
-## 🚀 Project Structure
+![Astro](https://img.shields.io/badge/Astro-5.17.1-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.1.18-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 Sobre el Proyecto
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Este sitio web sirve como el portal digital para nuestro grupo, donde compartimos quiénes somos y las salidas que hemos realizado.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### ✨ Secciones Principales
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Sobre Nosotros**: Conoce a los 6 integrantes del grupo (Leonel, Oscar, Ricardo, Danghelo, Eduardo, Franco).
+- **Nuestras Salidas**: Una galería de nuestros momentos memorables, desde despedidas colegiales hasta futuras salidas y tonazos.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🛠️ Tecnologías
 
-## 🧞 Commands
+Este proyecto está construido con tecnologías web modernas para asegurar el mejor rendimiento y experiencia de desarrollador:
 
-All commands are run from the root of the project, from a terminal:
+- **[Astro](https://astro.build/)**: Framework web para sitios orientados a contenido.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework de utilidades CSS para un diseño rápido y responsive.
 
-| Command                   | Action                                           |
+## 💻 Empezando
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <tu-repositorio-url>
+   cd los-tralaleritos
+   ```
+
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Abrir en el navegador:**
+   Visita `http://localhost:4321` para ver el sitio en acción.
+
+## 🧞 Comandos Disponibles
+
+| Comando                   | Acción                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Instala las dependencias                         |
+| `npm run dev`             | Inicia el servidor de desarrollo local           |
+| `npm run build`           | Construye el sitio para producción en `./dist/`  |
+| `npm run preview`         | Previsualiza la construcción localmente          |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+Hecho con ❤️ por Los Tralaleritos
