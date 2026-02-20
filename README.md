@@ -2,19 +2,16 @@
 
 > **"Existentes desde 2023"**
 
-Bienvenido a la página oficial de **Los Tralaleritos**, un grupo de amigos apasionados por las aventuras y los buenos momentos en nuestro querido Perú.
+Bienvenido a la página oficial de **Los Tralaleritos**
 
 ![Astro](https://img.shields.io/badge/Astro-5.17.1-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.1.18-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## 🚀 Sobre el Proyecto
 
-Este sitio web sirve como el portal digital para nuestro grupo, donde compartimos quiénes somos y las salidas que hemos realizado.
+Este sitio web sirve como el portal digital para nuestro grupo, aunque es más una forma de práctica del uso de 
+frameworks
 
-### ✨ Secciones Principales
-
-- **Sobre Nosotros**: Conoce a los 6 integrantes del grupo (Leonel, Oscar, Ricardo, Danghelo, Eduardo, Franco).
-- **Nuestras Salidas**: Una galería de nuestros momentos memorables, desde despedidas colegiales hasta futuras salidas y tonazos.
 
 ## 🛠️ Tecnologías
 
@@ -56,4 +53,4 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 | `npm run preview`         | Previsualiza la construcción localmente          |
 
 ---
-Hecho con ❤️ por Los Tralaleritos
+Hecho con casi nada de ❤️ por Leonel 
